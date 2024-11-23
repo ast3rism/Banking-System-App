@@ -38,7 +38,7 @@ class SavingsAccount(Account):
         print(f"Interest added at rate {self.interest_rate*100}%. New balance is: ${self.balance}")
 
 def create_account(name, account_type='regular'):
-    # Simulate database interaction for account creation
+    # Simulate a database interaction for account creation
     account_number = random.randint(100000, 999999)  # Generate random account number
     initial_balance = 1000  # Initial balance
     if account_type == 'savings':
